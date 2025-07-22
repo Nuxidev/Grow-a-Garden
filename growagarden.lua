@@ -1,12 +1,3 @@
-if game.PlaceId ~= 8737899170 then
-    game.StarterGui:SetCore("SendNotification", {
-        Title = "Nuxi Hub",
-        Text = "❌ This script only works on Grow a Garden!",
-        Duration = 6
-    })
-    return
-end
-
 local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))()
 
 local Window = Fluent:CreateWindow({
